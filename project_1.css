@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(202, 240, 186);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 100%;
+  color: white;
+  background-color: rgb(233, 190, 190);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
